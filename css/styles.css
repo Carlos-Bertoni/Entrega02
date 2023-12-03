@@ -41,12 +41,12 @@ p {
 .nav {
     display: flex;
     justify-content: space-between;
-
 }
 
 .nav-menu {
     display: flex;
     margin-right: 30px;
+    overflow: hidden;
 }
 
 .nav-link a {
@@ -133,6 +133,12 @@ p {
     justify-content: center;
 }
 
+.maps {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
 /* Formulario de Contacto */
 .formulario {
     width: 100%;
@@ -170,7 +176,7 @@ p {
 
 .centrar-lista {
     text-align: center;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .centrar-lista ol {
@@ -183,6 +189,20 @@ p {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+}
+
+.parrafo-justificado {
+    display: flex;
+    text-align: justify;
+    padding: 2rem;
+}
+
+.parrafo-back {
+    background-color: rgb(208, 208, 223);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .mensaje-footer {
