@@ -163,6 +163,10 @@ p {
     cursor: pointer;
 }
 
+.card-text {
+    text-align: left;
+}
+
 /* FIN Formulario de Contacto */
 
 
@@ -198,7 +202,7 @@ p {
 }
 
 .parrafo-back {
-    background-color: rgb(208, 208, 223);
+    background-color: rgb(223, 223, 240);
     width: 100%;
     display: flex;
     justify-content: center;
