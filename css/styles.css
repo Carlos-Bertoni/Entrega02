@@ -163,6 +163,17 @@ p {
     cursor: pointer;
 }
 
+.cards-container {
+    background-color: rgb(63, 55, 208);
+    display: flex;
+    justify-content: space-around;
+    gap: 1.0rem;
+    align-items: center; /* Centrado vertical */
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 .card-text {
     text-align: left;
 }
@@ -211,12 +222,11 @@ p {
 
 .mensaje-footer {
     font-family: 'REM', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     text-align: center;
-    top: 50%;
-    left: 50%;
+    margin-top: 1.2rem;
 }
 
 /** FOOTER **/
