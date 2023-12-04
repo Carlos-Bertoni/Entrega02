@@ -140,28 +140,39 @@ p {
 }
 
 /* Formulario de Contacto */
-.formulario {
-    width: 100%;
+.form-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+/*  form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.formulario input {
-    width: 90%;
-    height: 30px;
-    margin: .5rem
-}
-
-.formulario button {
-    padding: .5em 1em;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
     border: none;
-    background: rgb(100, 200, 255);
+    border-radius: 4px;
     cursor: pointer;
-}
+  }*/
 
 .cards-container {
     background-color: rgb(63, 55, 208);
@@ -180,7 +191,6 @@ p {
 
 /* FIN Formulario de Contacto */
 
-
 #ciudades {
     text-decoration: none;
     font-family: 'REM', sans-serif;
@@ -188,6 +198,27 @@ p {
     color: rgb(0, 0, 0);
     font-size: 1rem;
 }
+
+.ciudades-contenedor {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    background-color: rgb(205, 229, 237);
+
+}
+  
+.foto img {
+    width: 80%;
+    padding: 20px
+    
+}
+  
+.texto {
+    text-align: left;
+    padding: 20px 20px
+}
+  
 
 .centrar-lista {
     text-align: center;
@@ -219,6 +250,27 @@ p {
     justify-content: center;
 
 }
+
+/* Estilos del chat de WhatsApp */
+.whatsapp-chat {
+    background-color: rgba(255, 240, 245, 0.7);
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+/* Ajustando el tamaño del logo */
+  .whatsapp-chat img {
+    width: 3rem; 
+    height: 3rem;
+  }
 
 .mensaje-footer {
     font-family: 'REM', sans-serif;
